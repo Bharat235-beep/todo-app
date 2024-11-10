@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Todo list <img src="images/icon.png" alt=""></h1>
+    </div>
+    <div class="todo-input">
+        <input type="text" value="" id="input" placeholder="Add your task...">
+        <button id="add" onclick="addTask()">Add</button>
+    </div>
+    <div class="todo-list">
+        <div class="todo-item">
+            <li class="unchecked">Bharat Kumar <span>&#x2716;</span></li>
+            <button>&#x270E;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
